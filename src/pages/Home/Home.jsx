@@ -1,3 +1,4 @@
+import App_Footer from "../../components/Footer";
 import App_Navbar from "../../components/Navbar";
 
 
@@ -10,6 +11,7 @@ function Home(){
             <main>
                 <h1>welcom to my home</h1>
             </main>
+            <App_Footer/>
         </>
     )
 };
