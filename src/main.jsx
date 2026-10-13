@@ -4,10 +4,12 @@ import './index.css'
 
 import { RouterProvider } from 'react-router-dom';
 import { routes } from './components/routes';
+import SparkCursor from './components/SparkCursor.jsx';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <SparkCursor/>
     < RouterProvider router = {routes}/>
   </StrictMode>,
 )

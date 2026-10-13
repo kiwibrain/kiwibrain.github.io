@@ -1,0 +1,14 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    text-align: center;
+}
